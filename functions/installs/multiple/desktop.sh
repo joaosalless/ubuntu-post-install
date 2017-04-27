@@ -5,7 +5,7 @@ dir="$(dirname "$0")"
 
 function desktop {
 
-    base_data_dir="data/installs/single/desktop"
+    base_data_dir="data/installs/multiple/desktop"
     whiptail_title="Desktop Interface"
     whiptail_text="Select the desktop packages to install:"
     installs=( $(ls "${dir}/${base_data_dir}") )

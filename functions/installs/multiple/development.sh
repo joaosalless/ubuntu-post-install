@@ -4,7 +4,7 @@ dir="$(dirname "$0")"
 
 function development {
 
-    base_data_dir="data/installs/single/development"
+    base_data_dir="data/installs/multiple/development"
     whiptail_title="Development Packages"
     whiptail_text="Select the development packages to install:"
     installs=( $(ls "${dir}/${base_data_dir}") )

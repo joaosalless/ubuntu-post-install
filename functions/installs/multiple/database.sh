@@ -23,14 +23,14 @@ function database {
             cfg.parser "${install_data_ini}"
             cfg.section.${install_data_dir}
         fi
-        checklist+=("${install}" "${install_name}" "ON")
+        checklist+=("${install}" "${install_name}")
     done
 
     eval `resize`
     checklist_result=$(whiptail \
                       --clear \
                       --title "$whiptail_title" \
-                      --checklist "$whiptail_text" \
+                      --menu "$whiptail_text" \
                       $LINES $COLUMNS ${installs_length} \
                       "${checklist[@]}" 3>&2 2>&1 1>&3)
 
