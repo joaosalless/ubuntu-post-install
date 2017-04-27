@@ -1,0 +1,16 @@
+autotools-dev
+build-essential
+bzr
+git
+git-core
+icontool
+meld
+nodejs
+optipng
+oracle-java8-installer
+oracle-java8-set-default
+ruby
+rubygems
+sublime-text-installer
+ubuntu-make
+x11-apps

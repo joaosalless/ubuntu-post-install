@@ -3,6 +3,7 @@
 #
 # Authors:
 #   Sam Hewitt <sam@snwh.org>
+#   João Sales <joaosalless@gmail.com>
 #
 # Description:
 #   A post-installation bash script for Ubuntu
@@ -29,38 +30,46 @@ clear
 
 dir="$(dirname "$0")"
 
-. $dir/functions/check
-. $dir/functions/cleanup
-. $dir/functions/codecs
-. $dir/functions/configure
-. $dir/functions/development
-. $dir/functions/favs
-. $dir/functions/gnome
-. $dir/functions/thirdparty
-. $dir/functions/update
-. $dir/functions/utilities
+#imports
+for i in ${dir}/functions/actions/*; do
+    source ${i}
+done
+
+for i in ${dir}/functions/installs/multiple/*; do
+    source ${i}
+done
+
+for i in ${dir}/functions/installs/single/*; do
+    source ${i}
+done
+
+for f in ${dir}/functions/installs/third-party/*.sh; do
+    source ${f}
+done
+
+source ${dir}/functions/install_apps.sh
 
 #----- Fancy Messages -----#
 show_error(){
-echo -e "\033[1;31m$@\033[m" 1>&2
+    echo -e "\033[1;31m$@\033[m" 1>&2
 }
 show_info(){
-echo -e "\033[1;32m$@\033[0m"
+    echo -e "\033[1;32m$@\033[0m"
 }
 show_warning(){
-echo -e "\033[1;33m$@\033[0m"
+    echo -e "\033[1;33m$@\033[0m"
 }
 show_question(){
-echo -e "\033[1;34m$@\033[0m"
+    echo -e "\033[1;34m$@\033[0m"
 }
 show_success(){
-echo -e "\033[1;35m$@\033[0m"
+    echo -e "\033[1;35m$@\033[0m"
 }
 show_header(){
-echo -e "\033[1;36m$@\033[0m"
+    echo -e "\033[1;36m$@\033[0m"
 }
 show_listitem(){
-echo -e "\033[0;37m$@\033[0m"
+    echo -e "\033[0;37m$@\033[0m"
 }
 
 # Main
@@ -70,21 +79,23 @@ function main {
 		--notags \
 		--title "Ubuntu Post-Install Script" \
 		--menu "\nWhat would you like to do?" \
-		--cancel-button "Quit" \
 		$LINES $COLUMNS $(( $LINES - 12 )) \
-		update	  'Perform system update' \
-		favs		'Install preferred applications' \
-		utilities   'Install preferred system utilities' \
-		development 'Install preferred development tools' \
-		codecs	  'Install Ubuntu Restricted Extras' \
-		thirdparty  'Install third-party applications' \
-		gnome	   'Install latest GNOME software' \
-		configure   'Configure system' \
-		cleanup	 'Cleanup the system' \
+		cleanup	         'Cleanup the System' \
+		codecs	         'Install Multimedia Codecs' \
+		configure        'Configure System' \
+		database         'Install Database Applications' \
+		desktop          'Install Desktop' \
+		development      'Install Development Tools' \
+		favorites        'Install Favorites Applications' \
+		gnome	         'Install Latest GNOME software' \
+		themes           'Install Themes' \
+		thirdparty       'Install Third-Party Applications' \
+		update	         'Perform system update' \
+		utilities        'Install System Utilities' \
 		3>&1 1>&2 2>&3)
-	 
-	exitstatus=$?
-	if [ $exitstatus = 0 ]; then
+
+	EXITSTATUS=$?
+	if [ ${EXITSTATUS} = 0 ]; then
 		$MAIN
 	else
 		quit
@@ -93,7 +104,7 @@ function main {
 
 # Quit
 function quit {
-	if (whiptail --title "Quit" --yesno "Are you sure you want quit?" 10 60) then
+	if (whiptail --title "Quit" --yesno "Are you sure you want quit?" 10 60); then
 		echo "Exiting..."
 		show_info 'Thanks for using!'
 		exit 99
@@ -106,7 +117,7 @@ function quit {
 check_dependencies
 while :
 do
-  main
+    main
 done
 
 #END OF SCRIPT

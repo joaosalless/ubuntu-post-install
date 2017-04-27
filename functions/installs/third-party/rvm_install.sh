@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# RVM
+function rvm_install {
+	# Variables
+	NAME="Ruby Version Manager"
+	# Check if already installed
+	echo 'Checking if '${NAME}' is already installed...'
+	if [ ! -f $HOME/.rvm/installed.at ]; then
+		echo ${NAME} 'is not installed. Proceeding'
+		# Add key(s)
+		show_info 'Adding '${NAME}' key to keyring...'
+		gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+		# Install
+		show_info 'Installing '${NAME}'...'
+		\curl -sSL https://get.rvm.io | bash -s stable --ruby
+		# \curl -sSL https://get.rvm.io | bash # Uncomment for development version
+		# Done
+		show_success 'Done.'
+	else
+		# Already installed
+		show_success ${NAME} 'already installed.'
+	fi
+}
