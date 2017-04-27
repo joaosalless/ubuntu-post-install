@@ -88,6 +88,8 @@ function main {
 		development      'Install Development Tools' \
 		favorites        'Install Favorites Applications' \
 		gnome	         'Install Latest GNOME software' \
+		graphics         'Install Graphics Applications (Image and Video)' \
+		office           'Install Office Applications' \
 		themes           'Install Themes' \
 		thirdparty       'Install Third-Party Applications' \
 		update	         'Perform system update' \
