@@ -57,3 +57,9 @@ Or you can store this scriptset in some directory, and add that location to your
 ```bash
 export PATH=${PATH}:$HOME/scripts/ubuntu-post-install/
 ```
+
+### Screenshot
+
+![](docs/screenshots/checklist.png)
+
+![](docs/screenshots/menu.png)

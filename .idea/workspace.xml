@@ -5,72 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66165521-d4ac-4330-aa80-26b4d1682661" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/desktop/gnome-desktop/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/desktop/gnome-desktop/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/desktop/gnome-desktop/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/desktop/gnome-desktop/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/desktop/gnome-desktop/gsettings.list" afterPath="$PROJECT_DIR$/data/installs/multiple/desktop/gnome-desktop/gsettings.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/desktop/gnome-desktop/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/desktop/gnome-desktop/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/desktop/gnome-desktop/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/desktop/gnome-desktop/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/apps_composer.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/apps_composer.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/apps_gem.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/apps_gem.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/apps_npm.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/apps_npm.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/apps_pip.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/apps_pip.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/angular/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/development/angular/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/apps_composer.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/apps_composer.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/apps_gem.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/apps_gem.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/apps_npm.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/apps_npm.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/apps_pip.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/apps_pip.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/base/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/development/base/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/apps_composer.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/apps_composer.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/apps_gem.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/apps_gem.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/apps_npm.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/apps_npm.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/apps_pip.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/apps_pip.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/devops/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/development/devops/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/apps_composer.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/apps_composer.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/apps_gem.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/apps_gem.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/apps_npm.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/apps_npm.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/apps_pip.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/apps_pip.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/gtk/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/development/gtk/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/apps_composer.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_composer.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/apps_gem.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_gem.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/apps_npm.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_npm.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/apps_pip.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_pip.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/mobile/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/development/mobile/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/apps_composer.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/apps_composer.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/apps_gem.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/apps_gem.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/apps_npm.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/apps_npm.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/apps_pip.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/apps_pip.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/php/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/development/php/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/apps_apt.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/apps_apt.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/apps_composer.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/apps_composer.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/apps_gem.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/apps_gem.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/apps_npm.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/apps_npm.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/apps_pip.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/apps_pip.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/apps_thirdparty.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/apps_thirdparty.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/ppas.list" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/ppas.list" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/installs/single/development/vue/setup.ini" afterPath="$PROJECT_DIR$/data/installs/multiple/development/vue/setup.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions/installs/single/desktop.sh" afterPath="$PROJECT_DIR$/functions/installs/multiple/desktop.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions/installs/single/development.sh" afterPath="$PROJECT_DIR$/functions/installs/multiple/development.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/installs/multiple/database.sh" afterPath="$PROJECT_DIR$/functions/installs/multiple/database.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,15 +31,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="208">
-                <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <first_editor relative-caret-position="251">
+                <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/functions/installs/third-party/setup.ini" />
         <option value="$PROJECT_DIR$/functions/installs/multiple/thirdparty.sh" />
         <option value="$PROJECT_DIR$/functions/installs/third-party/arc-theme_install.sh" />
         <option value="$PROJECT_DIR$/functions/installs/third-party/docker-compose_install.sh" />
@@ -256,6 +202,7 @@
         <option value="$PROJECT_DIR$/functions/installs/multiple/development.sh" />
         <option value="$PROJECT_DIR$/functions/installs/multiple/database.sh" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -601,12 +548,12 @@
       <workItem from="1493239966901" duration="41000" />
       <workItem from="1493240064421" duration="48000" />
       <workItem from="1493240249401" duration="2099000" />
-      <workItem from="1493242438008" duration="28503000" />
+      <workItem from="1493242438008" duration="29089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200134000" />
+    <option name="totallyTimeSpent" value="200720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,9 +566,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22863248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22863248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,25 +585,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22863248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -670,14 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_gem.list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/installs/multiple/development/mobile/apps_composer.list">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1073,11 +992,19 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="208">
-            <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <first_editor relative-caret-position="251">
+            <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
