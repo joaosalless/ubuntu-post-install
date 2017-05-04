@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Docker
 function nodejs_install {
 	# Variables
 	PACKAGE=nodejs

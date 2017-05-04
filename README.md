@@ -1,7 +1,12 @@
 Ubuntu Post Install Scripts
 ===========================
 
-Original Author: [Sam Hewitt](https://github.com/snwh)
+This project is based on the [ubuntu-post-install](https://github.com/snwh/ubuntu-post-install) project created by [Sam Hewitt](https://github.com/snwh).
+
+I made some modifications for the installer to dynamically support apt-get installations that require PPAs, global npm applications, python pip applications, ruby gem applications, global composer installations.
+
+
+The list of applications is now presented in the form of a whiptail checklist so that you can uncheck any of the applications and prevent it from being installed.
 
 > This project is my set of post-installation and maintenance scripts for Ubuntu, to run on a fresh install. It's designed to install your favourite applications, set your preferred settings, etc. mostly automatically. 
 
