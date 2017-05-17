@@ -312,7 +312,7 @@ function install_apps () {
             if [ $? == 0 ]; then
                 show_info "Installing ${install_name} composer packages..."
                 for i in "${checklist_result[@]}"; do
-                    eval "${cmd_composer} ${checklist_result[@]}"
+                    eval "${cmd_composer}" "${checklist_result[@]}"
                 done
             fi
         fi

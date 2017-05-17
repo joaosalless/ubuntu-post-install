@@ -9,6 +9,13 @@ gnome-clocks
 gnome-disk-utility
 gnome-documents
 gnome-logs
+gnome-todo
+gnome-translate
+gnome-sound-recorder
+gnome-shell-extension-redshift
+gnome-recipes
+gnome-mpv
+gnome-gmail
 gnome-maps
 gnome-music
 gnome-photos
